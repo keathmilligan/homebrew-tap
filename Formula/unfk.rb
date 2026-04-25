@@ -4,26 +4,26 @@
 class Unfk < Formula
   desc ""
   homepage ""
-  version "1.3.0"
+  version "1.3.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/keathmilligan/unfk/releases/download/v1.3.0/unfk-1.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "aa77809666ab40b8edb64c94f0ddf20196ef8276ba225052c3fb092050f3e3b2"
+      url "https://github.com/keathmilligan/unfk/releases/download/v1.3.1/unfk-1.3.1-aarch64-apple-darwin.tar.gz"
+      sha256 "4028db39361171ae6d8e7b0af5fddbec30d3becaeb67899411643a983f964c58"
     else
-      url "https://github.com/keathmilligan/unfk/releases/download/v1.3.0/unfk-1.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "828ca5889bb55b4c0c7d47af09a57d3cd6751a3711244f264551672b05c88a8d"
+      url "https://github.com/keathmilligan/unfk/releases/download/v1.3.1/unfk-1.3.1-x86_64-apple-darwin.tar.gz"
+      sha256 "3c33f1e2731b5ab1836c1304d435e321436d8f070f58918e616e385a81f3475b"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/keathmilligan/unfk/releases/download/v1.3.0/unfk-1.3.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "9b4bdf3696f309f157532284a16205a746c7e9f89df5ee7b9e105716f2569da3"
+      url "https://github.com/keathmilligan/unfk/releases/download/v1.3.1/unfk-1.3.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "69bd76c63df81af638e65714710465cdef430c2b230f465ad83159e2f8ed697a"
     else
-      url "https://github.com/keathmilligan/unfk/releases/download/v1.3.0/unfk-1.3.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a0779fbd6a09d1780c53a9058fc62d157a1584bb72baf9a8e815852f7227b1a8"
+      url "https://github.com/keathmilligan/unfk/releases/download/v1.3.1/unfk-1.3.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b70c5d1a4d0951db4409476f454891359830a6fae51a24d92d429f626eac47ed"
     end
   end
 
