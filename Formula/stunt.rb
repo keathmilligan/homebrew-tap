@@ -4,26 +4,26 @@
 class Stunt < Formula
   desc ""
   homepage ""
-  version "0.5.0"
+  version "0.5.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/keathmilligan/stunt/releases/download/v0.5.0/stunt-0.5.0-aarch64-apple-darwin.tar.gz"
-      sha256 "509cca88d037abaa02f75ad8836d5cdb0504005f48c3fd8ce115ad2b167edd2b"
+      url "https://github.com/keathmilligan/stunt/releases/download/v0.5.1/stunt-0.5.1-aarch64-apple-darwin.tar.gz"
+      sha256 "626c1f1659953885c84011f1ac2bc263e8945e5407580128a0f87476356bad06"
     else
-      url "https://github.com/keathmilligan/stunt/releases/download/v0.5.0/stunt-0.5.0-x86_64-apple-darwin.tar.gz"
-      sha256 "d59d5b6ba81aeb949331f85467fa99d6f111be8357ff6f5632840f83d12d102c"
+      url "https://github.com/keathmilligan/stunt/releases/download/v0.5.1/stunt-0.5.1-x86_64-apple-darwin.tar.gz"
+      sha256 "2ee1d9f021d04fea23db7866aa303f688f07f59dda3e419e7116afc3a1ef42a3"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/keathmilligan/stunt/releases/download/v0.5.0/stunt-0.5.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "7bb9d2ad00de49397559dce3f3f70698cf110ce7743aacd06a382abdeceeacf3"
+      url "https://github.com/keathmilligan/stunt/releases/download/v0.5.1/stunt-0.5.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0078b6fbdcb73fdb54b365d25294c772105aeb661d94e7f94fdbcfe9f31ef991"
     else
-      url "https://github.com/keathmilligan/stunt/releases/download/v0.5.0/stunt-0.5.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "84ee2f979ddb82ca709f975197d5073c806e70549e14be58a2d7be154affdb19"
+      url "https://github.com/keathmilligan/stunt/releases/download/v0.5.1/stunt-0.5.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "5a4c0c32c97f1b36fafbaaadf5210ac1983f402e837d6024ed3037e5ed428ce7"
     end
   end
 
