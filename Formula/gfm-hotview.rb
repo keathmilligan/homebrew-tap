@@ -4,26 +4,26 @@
 class GfmHotview < Formula
   desc ""
   homepage ""
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/keathmilligan/gfm-hotview/releases/download/v0.1.1/gfm-hotview-0.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "e92591a8720a0773b4da9a200abab33f100c07394b0fe27668e1f3b32a7857dc"
+      url "https://github.com/keathmilligan/gfm-hotview/releases/download/v0.2.0/gfm-hotview-0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "5dedb2b789903f061c3fcc05beda34bc68e0bbba5bd78a719389243afa85b777"
     else
-      url "https://github.com/keathmilligan/gfm-hotview/releases/download/v0.1.1/gfm-hotview-0.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "c0f4029f6da6f81ec8ae4425f05d7f7b30ef00aea545cefdc09c274b52ef5044"
+      url "https://github.com/keathmilligan/gfm-hotview/releases/download/v0.2.0/gfm-hotview-0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "e36ad89161d6dfba7afa5fda22509e433533a0a6850ea9ee26ddd31a3227df3f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/keathmilligan/gfm-hotview/releases/download/v0.1.1/gfm-hotview-0.1.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "ce9cff47311cc219ec4e4662211270fe4ba24e7770068f81687c65fa2865a2d9"
+      url "https://github.com/keathmilligan/gfm-hotview/releases/download/v0.2.0/gfm-hotview-0.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "59665a3ae1eab3d78c3d21578f62bda7dc570dd70ffe11555d27e9bee7d13090"
     else
-      url "https://github.com/keathmilligan/gfm-hotview/releases/download/v0.1.1/gfm-hotview-0.1.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "9914d4c17d60f2310bb005e781c43a22f1358fdd52873b1f3eb9ff82d544211d"
+      url "https://github.com/keathmilligan/gfm-hotview/releases/download/v0.2.0/gfm-hotview-0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e4e1312874358c45848b612ea95f5fccd0a53be19a63901efc8851d151d3b5be"
     end
   end
 
